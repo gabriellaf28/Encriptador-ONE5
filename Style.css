@@ -1,0 +1,141 @@
+body{
+    background: linear-gradient(#F3F5FC,#EFF1FA, #E9ECF8,#AAB2D5);
+}
+.logo{
+  width:11%;
+  left: 44px;
+}
+.bloqueIngresar{
+    margin:3%;
+}
+.cajaIngreso{
+    padding: 1% 
+}
+#texto, ::placeholder{
+    width: 680px;
+    height: 430px;
+    left: 240px;
+    top: 168px;
+    border-color:#EFF1FA;
+    background: linear-gradient(#EFF1FA, #E9ECF8);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    resize: none;
+}
+
+.imgAlerta{
+    float: left;
+    margin-right: 0.5%;
+}
+.recordatorio p{
+    color: #363a3d;
+    opacity: 0.8;
+}
+.botones-encriptar{
+    width: 680px;
+    left: 240px;
+    display: flex;  
+}
+.boton-encript{
+    box-sizing: border-box;
+    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border: none;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 1s all;
+
+}
+.boton-encript:hover{
+    transform: scale(1.05);
+}
+.boton-desencript{
+    margin-left: 20px;
+    box-sizing: border-box;
+    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    cursor: pointer;
+    transition: 1s all;
+}
+.boton-desencript:hover{
+    transform: scale(1.05); 
+}
+.bloqueIlustracion{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    left: 1000px;
+    top: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+.mensaje{
+    box-sizing: border-box;
+    margin-top: 12%;
+    margin-left: 10%;
+    height: 90px;
+    width: 80%;
+    resize: none;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 19px;
+    
+}
+.cajaIlustracion{
+    margin-top: 7%;
+    margin-left: 10%;
+    
+}
+.cajaMensaje p{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+   
+}
